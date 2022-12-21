@@ -13,9 +13,10 @@ grampian = "https://publicaccess.aberdeencity.gov.uk/online-applications/search.
 westlothian = "https://planning.westlothian.gov.uk/publicaccess/search.do?action=advanced"
 midlothian = "https://planning-applications.midlothian.gov.uk/OnlinePlanning/search.do?action=advanced"
 eastlothian = "https://pa.eastlothian.gov.uk/online-applications/search.do?action=advanced"
+shetland = "https://pa.shetland.gov.uk/online-applications/search.do?action=advanced"
 
-authorities = ["Dumfries and Galloway","Highland","Argyll and Bute","Renfrewshire","Fife","Borders","Angus","Tayside/Dundee","Strathclyde/Glasgow","Grampian/Aberdeen","West Lothian","Midlothian","East Lothian"]
-links = [dumgal,highland,argbute,renfrewshire,fife,borders,angus,tayside,strathclyde,grampian,westlothian,midlothian,eastlothian]
+authorities = ["Dumfries and Galloway","Highland","Argyll and Bute","Renfrewshire","Fife","Borders","Angus","Tayside/Dundee","Strathclyde/Glasgow","Grampian/Aberdeen","West Lothian","Midlothian","East Lothian","Shetland"]
+links = [dumgal,highland,argbute,renfrewshire,fife,borders,angus,tayside,strathclyde,grampian,westlothian,midlothian,eastlothian,shetland]
 choice = st.selectbox("Local Authority",authorities)
 
 for i in range(len(links)):
