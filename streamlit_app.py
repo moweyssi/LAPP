@@ -4,7 +4,6 @@ import streamlit.components.v1 as components
 # embed streamlit docs in a streamlit app
 #components.iframe("https://eaccess.dumgal.gov.uk/")
 components.html(html="""
-      <html>
         <head>
           <title> Title of the document<title>
         </head>
@@ -15,5 +14,4 @@ components.html(html="""
         <p>Alternative of iframe tag</p>
         <embed src="https://www.talkerscode.com" width="1000" height="500" style="border: 1px solid white; box-shadow: 0 0 5px black;" />
     </center>
-   </body>
-</html>""",height=600)
+   </body>""",height=600)
