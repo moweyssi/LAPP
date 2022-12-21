@@ -16,4 +16,4 @@ components.html(html="""<!DOCTYPE html>
         <embed src="https://www.talkerscode.com" width="1000" height="500" style="border: 1px solid white; box-shadow: 0 0 5px black;" />
     </center>
    </body>
-</html>""")
+</html>""",height=600)
