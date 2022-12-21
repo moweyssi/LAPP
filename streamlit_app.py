@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 
 # embed streamlit docs in a streamlit app
 #components.iframe("https://eaccess.dumgal.gov.uk/")
-components.html(html="""<!DOCTYPE html>
+components.html(html="""
       <html>
         <head>
           <title> Title of the document<title>
