@@ -18,9 +18,5 @@ from bs4 import BeautifulSoup
 
 import mechanicalsoup
 browser = mechanicalsoup.StatefulBrowser()
-browser.open("https://eaccess.dumgal.gov.uk/online-applications/search.do?action=advanced&searchType=Application")
-browser.select_form()
-browser['searchCriteria.reference'] = "18/1706/FUL"
-browser.submit_selected()
-#browser.launch_browser()
-"""done"""
+browser.open("https://www.jakpsatweb.cz/titulek.html")
+st.markdown(browser.page(),unsafe_allow_html=True)
