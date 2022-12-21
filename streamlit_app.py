@@ -18,6 +18,6 @@ from bs4 import BeautifulSoup
 
 import mechanicalsoup
 browser = mechanicalsoup.StatefulBrowser()
-browser.addheaders = [('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36')]
+browser.set_user_agent('Mozilla/5.0')
 browser.open("https://wam.highland.gov.uk/wam/search.do?action=advanced")
 st.markdown(browser.page(),unsafe_allow_html=True)
