@@ -6,4 +6,4 @@ highland = "https://wam.highland.gov.uk/wam/search.do?action=advanced"
 argbute = "https://publicaccess.argyll-bute.gov.uk/online-applications/search.do?action=advanced"
 st.selectbox("Local Authority",["Dumfries and Galloway","Highland","Argyll and Bute"])
 
-st.markdown("check out this [link](%s)" % dumgal)
+st.text("[LAPP](%s)" % dumgal)
