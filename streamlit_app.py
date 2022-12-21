@@ -18,5 +18,5 @@ from bs4 import BeautifulSoup
 
 import mechanicalsoup
 browser = mechanicalsoup.StatefulBrowser()
-browser.open("https://www.jakpsatweb.cz/titulek.html")
+browser.open("https://eaccess.dumgal.gov.uk")
 st.markdown(browser.page(),unsafe_allow_html=True)
