@@ -18,5 +18,5 @@ from bs4 import BeautifulSoup
 
 import mechanicalsoup
 browser = mechanicalsoup.StatefulBrowser()
-browser.open("https://eaccess.dumgal.gov.uk")
+browser.open("https://wam.highland.gov.uk/wam/search.do?action=advanced")
 st.markdown(browser.page(),unsafe_allow_html=True)
