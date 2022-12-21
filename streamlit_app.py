@@ -1,6 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
-st.write(
-        f'<iframe src="https://eaccess.dumgal.gov.uk/online-applications/search.do?action=advanced"></iframe>',
-        unsafe_allow_html=True,
-    )
+# embed streamlit docs in a streamlit app
+components.iframe("https://eaccess.dumgal.gov.uk/online-applications/search.do?action=advanced")
