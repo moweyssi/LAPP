@@ -14,9 +14,42 @@ westlothian = "https://planning.westlothian.gov.uk/publicaccess/search.do?action
 midlothian = "https://planning-applications.midlothian.gov.uk/OnlinePlanning/search.do?action=advanced"
 eastlothian = "https://pa.eastlothian.gov.uk/online-applications/search.do?action=advanced"
 shetland = "https://pa.shetland.gov.uk/online-applications/search.do?action=advanced"
+marine = "https://marine.gov.scot/marine-licence-applications"
 
-authorities = ["Dumfries and Galloway","Highland","Argyll and Bute","Renfrewshire","Fife","Borders","Angus","Tayside/Dundee","Strathclyde/Glasgow","Grampian/Aberdeen","West Lothian","Midlothian","East Lothian","Shetland"]
-links = [dumgal,highland,argbute,renfrewshire,fife,borders,angus,tayside,strathclyde,grampian,westlothian,midlothian,eastlothian,shetland]
+authorities = [
+    "Dumfries and Galloway",
+    "Highland",
+    "Argyll and Bute",  
+    "Renfrewshire",   
+    "Fife",
+    "Borders",
+    "Angus",
+    "Tayside/Dundee",
+    "Strathclyde/Glasgow",
+    "Grampian/Aberdeen",
+    "West Lothian",
+    "Midlothian",
+    "East Lothian",
+    "Shetland",
+    "Marine"
+    ]
+links = [
+    dumgal,
+    highland,
+    argbute,
+    renfrewshire,
+    fife,
+    borders,
+    angus,
+    tayside,
+    strathclyde,
+    grampian,
+    westlothian,
+    midlothian,
+    eastlothian,
+    shetland,
+    marine
+    ]
 choice = st.selectbox("Local Authority",authorities)
 
 for i in range(len(links)):
