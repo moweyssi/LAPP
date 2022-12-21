@@ -12,5 +12,6 @@ br.select_form('searchCriteriaForm')
 br['searchCriteria.reference'] = "18/1706/FUL"
 br.submit()
 soup = BeautifulSoup(br.response().read())
-st.markdown(soup,unsafe_allow_html=True)
+print(soup)
+#st.markdown(soup,unsafe_allow_html=True)
 #components.html(html=soup,height=600)
