@@ -1,5 +1,4 @@
 import streamlit as st
-import webbrowser
 
 dumgal = "https://eaccess.dumgal.gov.uk/online-applications/search.do?action=advanced&searchType=Application"
 highland = "https://wam.highland.gov.uk/wam/search.do?action=advanced"
@@ -16,4 +15,4 @@ choice = st.selectbox("Local Authority",authorities)
 #    st.markdown("[LAPP](%s)" % links[1])
 #elif choice == authorities[2]:
 #    st.markdown("[LAPP](%s)" % links[3])
-[st.markdown("[LAPP](%s)" % links[i]) for i in range(len(links)) if choice==authorities[i]]
+[st.write("[LAPP](%s)" % links[i]) for i in range(len(links)) if choice==authorities[i]]
