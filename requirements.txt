@@ -1,3 +1,4 @@
 streamlit
 mechanize
 bs4
+mechanicalsoup
