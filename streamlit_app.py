@@ -19,5 +19,8 @@ from bs4 import BeautifulSoup
 import mechanicalsoup
 browser = mechanicalsoup.StatefulBrowser()
 browser.set_user_agent('Mozilla/5.0')
-browser.open("https://wam.highland.gov.uk/wam/search.do?action=advanced")
+proxy = {
+    'http':  '51.159.115.233:3128'
+}
+browser.open("https://wam.highland.gov.uk/wam/search.do?action=advanced",proxies=proxy)
 st.markdown(browser.page(),unsafe_allow_html=True)
