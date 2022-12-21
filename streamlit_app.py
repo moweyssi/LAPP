@@ -5,9 +5,12 @@ highland = "https://wam.highland.gov.uk/wam/search.do?action=advanced"
 argbute = "https://publicaccess.argyll-bute.gov.uk/online-applications/search.do?action=advanced"
 renfrewshire = "https://pl-bs.renfrewshire.gov.uk/online-applications/search.do?action=advanced"
 fife = "https://planning.fife.gov.uk/online/search.do?action=advanced"
+borders = "https://eplanning.scotborders.gov.uk/online-applications/search.do?action=advanced"
+angus = "https://planning.angus.gov.uk/online-applications/search.do?action=advanced"
+tayside = "https://idoxwam.dundeecity.gov.uk/idoxpa-web/search.do?action=advanced"
 
-authorities = ["Dumfries and Galloway","Highland","Argyll and Bute","Renfrewshire","Fife"]
-links = [dumgal,highland,argbute,renfrewshire,fife]
+authorities = ["Dumfries and Galloway","Highland","Argyll and Bute","Renfrewshire","Fife","Borders","Angus","Tayside/Dundee"]
+links = [dumgal,highland,argbute,renfrewshire,fife,borders,angus,tayside]
 choice = st.selectbox("Local Authority",authorities)
 
 #if choice == authorities[0]:
