@@ -57,7 +57,7 @@ for i in range(len(links)):
     if choice==authorities[i]:
         #st.write("[LAPP](%s)" % links[i]) 
 
-        st.write(f'''
+        st.write('''
             <a target="_blank" href={}>
                 <button>
                     Local Authority Planning Portal
