@@ -55,3 +55,15 @@ choice = st.selectbox("Local Authority",authorities)
 for i in range(len(links)):
     if choice==authorities[i]:
         st.write("[LAPP](%s)" % links[i])  
+
+companyhouse = "https://find-and-update.company-information.service.gov.uk/"
+
+st.write(f'''
+    <a target="_self" href="https://find-and-update.company-information.service.gov.uk/">
+        <button>
+            Companies House
+        </button>
+    </a>
+    ''',
+    unsafe_allow_html=True
+)
