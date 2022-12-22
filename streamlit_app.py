@@ -60,8 +60,11 @@ for i in range(len(links)):
 companyhouse = "https://find-and-update.company-information.service.gov.uk/"
 
 st.write(f'''
-    <button class="btn btn-success" onclick="location.href="https://find-and-update.company-information.service.gov.uk/";"> Google</button>
-
+    <a target="_blank" href="https://find-and-update.company-information.service.gov.uk/">
+        <button>
+            Companies House
+        </button>
+    </a>
     ''',
     unsafe_allow_html=True
 )
