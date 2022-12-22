@@ -18,7 +18,7 @@ shetland = "https://pa.shetland.gov.uk/online-applications/search.do?action=adva
 marine = "https://marine.gov.scot/marine-licence-applications"
 
 authorities = [
-    "Perth and Kinross",
+    #"Perth and Kinross",
     "Dumfries and Galloway",
     "Highland",
     "Argyll and Bute",  
@@ -36,7 +36,7 @@ authorities = [
     "Marine"
     ]
 links = [
-    pkinross,
+    #pkinross,
     dumgal,
     highland,
     argbute,
