@@ -59,6 +59,9 @@ for i in range(len(links)):
 
 companyhouse = "https://find-and-update.company-information.service.gov.uk/"
 
-login = st.button('Companies House')
-if login:
-  webbrowser.open(companyhouse)
+st.write(f'''
+    <button class="btn btn-success" onclick="location.href="https://find-and-update.company-information.service.gov.uk/";"> Google</button>
+
+    ''',
+    unsafe_allow_html=True
+)
