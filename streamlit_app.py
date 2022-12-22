@@ -1,6 +1,7 @@
 import streamlit as st
 
 pkinross = "https://planningapps.pkc.gov.uk/online-applications/search.do?action=advanced&searchType=Application"
+slanarkshire = "https://publicaccess.southlanarkshire.gov.uk/online-applications/search.do?action=advanced"
 dumgal = "https://eaccess.dumgal.gov.uk/online-applications/search.do?action=advanced&searchType=Application"
 highland = "https://wam.highland.gov.uk/wam/search.do?action=advanced"
 argbute = "https://publicaccess.argyll-bute.gov.uk/online-applications/search.do?action=advanced"
@@ -19,6 +20,7 @@ marine = "https://marine.gov.scot/marine-licence-applications"
 
 authorities = [
     #"Perth and Kinross",
+    "South Lanarkshire",
     "Dumfries and Galloway",
     "Highland",
     "Argyll and Bute",  
@@ -37,6 +39,7 @@ authorities = [
     ]
 links = [
     #pkinross,
+    slanarkshire,
     dumgal,
     highland,
     argbute,
