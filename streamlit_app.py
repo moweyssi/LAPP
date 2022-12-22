@@ -67,9 +67,7 @@ for i in range(len(links)):
 
         st.write('''
             <a target="_blank" href={}>
-                <button>
-                    Local Authority Planning Portal
-                </button>
+            <button>Local Authority Planning Portal</button>
             </a>
             '''.format(links[i]),
             unsafe_allow_html=True
@@ -79,9 +77,7 @@ companyhouse = "https://find-and-update.company-information.service.gov.uk/"
 
 st.write(f'''
     <a target="_blank" href="https://find-and-update.company-information.service.gov.uk/">
-        <button>
-            Companies House
-        </button>
+    <button>Companies House</button>
     </a>
     ''',
     unsafe_allow_html=True
