@@ -1,4 +1,5 @@
 import streamlit as st
+import webbrowser
 
 dumgal = "https://eaccess.dumgal.gov.uk/online-applications/search.do?action=advanced&searchType=Application"
 highland = "https://wam.highland.gov.uk/wam/search.do?action=advanced"
@@ -58,12 +59,6 @@ for i in range(len(links)):
 
 companyhouse = "https://find-and-update.company-information.service.gov.uk/"
 
-st.write(f'''
-    <a target="_self" href="https://find-and-update.company-information.service.gov.uk/">
-        <button>
-            Companies House
-        </button>
-    </a>
-    ''',
-    unsafe_allow_html=True
-)
+login = st.button('Companies House')
+if login:
+  webbrowser.open(companyhouse)
