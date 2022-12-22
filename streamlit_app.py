@@ -1,6 +1,7 @@
 import streamlit as st
 
 pkinross = "https://planningapps.pkc.gov.uk/online-applications/search.do?action=advanced&searchType=Application"
+inverclyde = "https://planning.inverclyde.gov.uk/Online/search.do?action=advanced"
 eayrshire = "https://eplanning.east-ayrshire.gov.uk/online/search.do?action=advanced"
 sayrshire = "https://publicaccess.south-ayrshire.gov.uk/online-applications/search.do?action=advanced"
 slanarkshire = "https://publicaccess.southlanarkshire.gov.uk/online-applications/search.do?action=advanced"
@@ -22,6 +23,7 @@ marine = "https://marine.gov.scot/marine-licence-applications"
 
 authorities = [
     #"Perth and Kinross",
+    "Inverclyde",
     "East Ayrshire",
     "South Ayrshire",
     "South Lanarkshire",
@@ -43,6 +45,7 @@ authorities = [
     ]
 links = [
     #pkinross,
+    inverclyde,
     eayrshire,
     sayrshire,
     slanarkshire,
