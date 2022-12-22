@@ -1,6 +1,6 @@
 import streamlit as st
-import webbrowser
 
+pkinross = "https://planningapps.pkc.gov.uk/online-applications/search.do?action=advanced&searchType=Application"
 dumgal = "https://eaccess.dumgal.gov.uk/online-applications/search.do?action=advanced&searchType=Application"
 highland = "https://wam.highland.gov.uk/wam/search.do?action=advanced"
 argbute = "https://publicaccess.argyll-bute.gov.uk/online-applications/search.do?action=advanced"
@@ -18,6 +18,7 @@ shetland = "https://pa.shetland.gov.uk/online-applications/search.do?action=adva
 marine = "https://marine.gov.scot/marine-licence-applications"
 
 authorities = [
+    "Perth and Kinross",
     "Dumfries and Galloway",
     "Highland",
     "Argyll and Bute",  
@@ -35,6 +36,7 @@ authorities = [
     "Marine"
     ]
 links = [
+    pkinross,
     dumgal,
     highland,
     argbute,
